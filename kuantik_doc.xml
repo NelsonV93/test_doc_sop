@@ -20,7 +20,7 @@
                             <cbc:EndDate>2024-08-21</cbc:EndDate>
                         </sts:AuthorizationPeriod>
                         <sts:AuthorizedInvoices>
-                            <sts:Prefix>DSE</sts:Prefix>
+                            <sts:Prefix>FACTU/2022/07/</sts:Prefix>
                             <sts:From>427</sts:From>
                             <sts:To>500</sts:To>
                         </sts:AuthorizedInvoices>
@@ -41,47 +41,47 @@
                     </sts:SoftwareProvider>
                     <sts:SoftwareSecurityCode schemeAgencyID="195"
                         schemeAgencyName="CO, DIAN (Direcci&#243;n de Impuestos y Aduanas Nacionales)">
-                        2e12999fc6ba5a5ac172ef4f3fe6ac8b4be0309b4f843881dc72effef5d9d7e16a8e84789c0775123d05163ca51317d6</sts:SoftwareSecurityCode>
+                        7bd2d3db2d522dd716a8d2fe90bca080bdcdbcddc93fce968cbdd092d3bc876cac90a0d2d8e8a7e4e4c61f9d12bbb107</sts:SoftwareSecurityCode>
                     <sts:AuthorizationProvider>
                         <sts:AuthorizationProviderID schemeAgencyID="195"
                             schemeAgencyName="CO, DIAN (Direcci&#243;n de Impuestos y Aduanas Nacionales)"
                             schemeID="4" schemeName="31">800197268</sts:AuthorizationProviderID>
                     </sts:AuthorizationProvider>
                     <sts:QRCode>
-                        https://catalogo-vpfe.dian.gov.co/document/searchqr?documentkey=ce356ca9c377062bebf3568f9b56b1086dfe8431d1d17c9992c89bb1c44278bece4126811015866c66be325ef0937160</sts:QRCode>
+                        https://catalogo-vpfe.dian.gov.co/document/searchqr?documentkey=ddba14d0248dadf4957445b672f0e15d68e2180e2f6a3095c8fc29eb018e283197a8d7ea6304e2dd614ee8d0d34e7739</sts:QRCode>
                 </sts:DianExtensions>
             </ext:ExtensionContent>
         </ext:UBLExtension>
         <ext:UBLExtension>
             <ext:ExtensionContent>
                 <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
-                    Id="xmldsig-ef7323c6-1a41-4298-a335-f48e38310b9c">
+                    Id="xmldsig-8ca0820c-4b78-4b22-9dc7-0c67d88acb8f">
                     <ds:SignedInfo>
                         <ds:CanonicalizationMethod
                             Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
                         <ds:SignatureMethod
                             Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
-                        <ds:Reference Id="xmldsig-ef7323c6-1a41-4298-a335-f48e38310b9c-ref0" URI="">
+                        <ds:Reference Id="xmldsig-8ca0820c-4b78-4b22-9dc7-0c67d88acb8f-ref0" URI="">
                             <ds:Transforms>
                                 <ds:Transform
                                     Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
                             </ds:Transforms>
                             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-                            <ds:DigestValue>KOGGXQypii4Iq19Vpuo2bzUMoDn94aRgWxGpk8NyMtU=</ds:DigestValue>
+                            <ds:DigestValue>DQrh3zUFmFuF0mbon968kOpiyz7m2hBfVfqGvojW5JE=</ds:DigestValue>
                         </ds:Reference>
-                        <ds:Reference URI="#xmldsig-d53c289c-0df3-4ad1-8437-2a7a6e29eb3d-keyInfo">
+                        <ds:Reference URI="#xmldsig-060478e1-3875-49ee-9d79-bcf28145bd0d-keyInfo">
                             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-                            <ds:DigestValue>vnRIb5a68SlAK8wta0U0zcB8YtcoRcS4LrqnhttZN5U=</ds:DigestValue>
+                            <ds:DigestValue>b6fsL1JbT0HI09kAJa9DxCfcMIpnM9GIYz+E7g74Cs0=</ds:DigestValue>
                         </ds:Reference>
                         <ds:Reference Type="http://uri.etsi.org/01903#SignedProperties"
-                            URI="#xmldsig-ef7323c6-1a41-4298-a335-f48e38310b9c-signedprops">
+                            URI="#xmldsig-8ca0820c-4b78-4b22-9dc7-0c67d88acb8f-signedprops">
                             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-                            <ds:DigestValue>617clQUAUn08fwY7IsJUrEmgSgDdcIextL78HsC4wM8=</ds:DigestValue>
+                            <ds:DigestValue>AY4Jr0ObEEA/ZuiRNnV0/GOIbHJaRm1sbznw1KaSN8g=</ds:DigestValue>
                         </ds:Reference>
                     </ds:SignedInfo>
-                    <ds:SignatureValue Id="xmldsig-ef7323c6-1a41-4298-a335-f48e38310b9c-sigvalue">
-                        QmCVfo8PLYfAouhCiPnFtJa27VGF7xB0WY8PcYuXnVnY4Oy1B/1QksHikbgJ7BUdAAzeAZPwxvPcDtSmrUtKDUjYzUvuGeoyT8DqPfiKmKRTy6cQ5L2cyt3yK7tmJnaeV9c8MmZCl64ohRn4cu4QonFIuVy1hPJqXqX7MJX9gxhT4CBK2S/dRhsdR0fJ/o4KMafTfcBajOhmHhhKXgmFz4ddZLyvLIH825N3yJPrCzA/YasBxNPVzbSGSDtqjRSZipJnZtvAQ4JafL+cWR5l/NbO1KUG8XlsHiRDfxf0liIPU0jelHy/uDL8eLl8Salnn0LaeUvaarhhgauOvsVxLA==</ds:SignatureValue>
-                    <ds:KeyInfo Id="xmldsig-d53c289c-0df3-4ad1-8437-2a7a6e29eb3d-keyInfo">
+                    <ds:SignatureValue Id="xmldsig-8ca0820c-4b78-4b22-9dc7-0c67d88acb8f-sigvalue">
+                        Cwy4v9jdBrtdjeQCxym5meF7RdTWnoBS0wsxzouPUbHFc5OJ2yDnlwoqV1Gkz8n6v+CcX7r4kHUXa5DAs6NeFosM2N3yKGoZ2+JohF4hTgngEaHYFVD/ZhIgrR66CvF80yUkYjOG26YvkcZMtCm05EAmqv6XHp//xDZ9Ut0xRvh5aKOjG8Cm8wrvXyDIVnd3UCkb4Oa9OwNuEqv3wLxezJXzER3Ef7tcMWj0tYgRDitpqL45cjDsWCoV7VFr22hYGMnqcU0ksRCAT4Wa63OO0M3OJmScZh38oiYPdNaM9C1VTjhlXXw+CeyM5dWxvtHkUBngTNBB99FvToJgVLmTaQ==</ds:SignatureValue>
+                    <ds:KeyInfo Id="xmldsig-060478e1-3875-49ee-9d79-bcf28145bd0d-keyInfo">
                         <ds:X509Data>
                             <ds:X509Certificate>MIIIPzCCBiegAwIBAgIId+o6b5RvWYwwDQYJKoZIhvcNAQELBQAwgbYxIzAhBgkq
                                 hkiG9w0BCQEWFGluZm9AYW5kZXNzY2QuY29tLmNvMSYwJAYDVQQDEx1DQSBBTkRF
@@ -133,11 +133,11 @@
                     <ds:Object>
                         <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"
                             xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#"
-                            Target="#xmldsig-ef7323c6-1a41-4298-a335-f48e38310b9c">
+                            Target="#xmldsig-8ca0820c-4b78-4b22-9dc7-0c67d88acb8f">
                             <xades:SignedProperties
-                                Id="xmldsig-ef7323c6-1a41-4298-a335-f48e38310b9c-signedprops">
+                                Id="xmldsig-8ca0820c-4b78-4b22-9dc7-0c67d88acb8f-signedprops">
                                 <xades:SignedSignatureProperties>
-                                    <xades:SigningTime>2023-09-11T11:40:44-05:00</xades:SigningTime>
+                                    <xades:SigningTime>2023-11-03T16:24:30-05:00</xades:SigningTime>
                                     <xades:SigningCertificate>
                                         <xades:Cert>
                                             <xades:CertDigest>
@@ -190,12 +190,12 @@
     <cbc:ProfileID>DIAN 2.1: documento soporte en adquisiciones efectuadas a no obligados a
         facturar.</cbc:ProfileID>
     <cbc:ProfileExecutionID>1</cbc:ProfileExecutionID>
-    <cbc:ID>DSE465</cbc:ID>
+    <cbc:ID>DSE497</cbc:ID>
     <cbc:UUID schemeID="1" schemeName="CUDS-SHA384">
-        ce356ca9c377062bebf3568f9b56b1086dfe8431d1d17c9992c89bb1c44278bece4126811015866c66be325ef0937160</cbc:UUID>
-    <cbc:IssueDate>2023-09-11</cbc:IssueDate>
-    <cbc:IssueTime>11:40:44-05:00</cbc:IssueTime>
-    <cbc:DueDate>2023-09-11</cbc:DueDate>
+        ddba14d0248dadf4957445b672f0e15d68e2180e2f6a3095c8fc29eb018e283197a8d7ea6304e2dd614ee8d0d34e7739</cbc:UUID>
+    <cbc:IssueDate>2023-11-03</cbc:IssueDate>
+    <cbc:IssueTime>16:24:30-05:00</cbc:IssueTime>
+    <cbc:DueDate>2023-11-03</cbc:DueDate>
     <cbc:InvoiceTypeCode>05</cbc:InvoiceTypeCode>
     <cbc:Note />
     <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
@@ -220,7 +220,7 @@
                 </cac:Address>
             </cac:PhysicalLocation>
             <cac:PartyTaxScheme>
-                <cbc:RegistrationName>JOSE BEDOYA</cbc:RegistrationName>
+                <cbc:RegistrationName>JOSE HERNAN BEDOYA GIRALDO</cbc:RegistrationName>
                 <cbc:CompanyID schemeAgencyID="195"
                     schemeAgencyName="CO, DIAN (Direcci&#243;n de Impuestos y Aduanas Nacionales)"
                     schemeID="1" schemeName="31">10276519</cbc:CompanyID>
@@ -251,12 +251,26 @@
     <cac:PaymentMeans>
         <cbc:ID>2</cbc:ID>
         <cbc:PaymentMeansCode>1</cbc:PaymentMeansCode>
-        <cbc:PaymentDueDate>2023-09-11</cbc:PaymentDueDate>
+        <cbc:PaymentDueDate>2023-11-03</cbc:PaymentDueDate>
         <cbc:PaymentID>1</cbc:PaymentID>
     </cac:PaymentMeans>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="COP">0.00</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="COP">1150000.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="COP">0.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:Percent>0.00</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>01</cbc:ID>
+                    <cbc:Name>IVA</cbc:Name>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
     <cac:LegalMonetaryTotal>
         <cbc:LineExtensionAmount currencyID="COP">1150000.00</cbc:LineExtensionAmount>
-        <cbc:TaxExclusiveAmount currencyID="COP">0.00</cbc:TaxExclusiveAmount>
+        <cbc:TaxExclusiveAmount currencyID="COP">1150000.00</cbc:TaxExclusiveAmount>
         <cbc:TaxInclusiveAmount currencyID="COP">1150000.00</cbc:TaxInclusiveAmount>
         <cbc:PayableAmount currencyID="COP">1150000.00</cbc:PayableAmount>
     </cac:LegalMonetaryTotal>
@@ -265,12 +279,26 @@
         <cbc:InvoicedQuantity unitCode="NT">1.00</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="COP">1150000.00</cbc:LineExtensionAmount>
         <cac:InvoicePeriod>
-            <cbc:StartDate>2023-09-11</cbc:StartDate>
+            <cbc:StartDate>2023-11-03</cbc:StartDate>
             <cbc:DescriptionCode>1</cbc:DescriptionCode>
             <cbc:Description>Por operaci&#243;n</cbc:Description>
         </cac:InvoicePeriod>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="COP">0.0</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="COP">1150000.00</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="COP">0.00</cbc:TaxAmount>
+                <cac:TaxCategory>
+                    <cbc:Percent>0.00</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>01</cbc:ID>
+                        <cbc:Name>IVA</cbc:Name>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
         <cac:Item>
-            <cbc:Description>ARRENDO BODEGA</cbc:Description>
+            <cbc:Description>ARRENDAMIENTO BODEGA OCTUBRE 2023</cbc:Description>
             <cac:StandardItemIdentification>
                 <cbc:ID schemeAgencyID="10" schemeID="001" schemeName="UNSPSC">False</cbc:ID>
             </cac:StandardItemIdentification>
